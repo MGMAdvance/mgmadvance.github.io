@@ -63,13 +63,26 @@ gulp.task('stylus', function(){
  * Javascript Task
  */
 gulp.task('js', function(){
-	return gulp.src('src/js/**/*.js')
+	return gulp.src(['src/js/**/*.js', '!src/js/getRepos.js'])
 		.pipe(plumber())
 		.pipe(concat('main.js'))
 		.pipe(uglify())
 		.pipe(gulp.dest('assets/js/'))
 		.pipe(browserSync.reload({stream:true}))
     .pipe(gulp.dest('_site/assets/js/'));
+});
+
+/**
+ * Javascript for one functional Task
+ */
+gulp.task('js-fast', function(){
+	return gulp.src(['src/js/getRepos.js'])
+		   .pipe(plumber())
+		   .pipe(concat('fast.js'))
+		   .pipe(uglify())
+		   .pipe(gulp.dest('assets/js/'))
+		   .pipe(browserSync.reload({stream:true}))
+		   .pipe(gulp.dest('_site/assets/js/'));
 });
 
 /**
@@ -88,7 +101,7 @@ gulp.task('imagemin', function() {
  */
 gulp.task('watch', function () {
 	gulp.watch('src/styl/**/*.styl', ['stylus']);
-	gulp.watch('src/js/**/*.js', ['js']);
+	gulp.watch('src/js/**/*.js', ['js', 'js-fast']);
 	gulp.watch('src/img/**/*.{jpg,png,gif}', ['imagemin']);
 	gulp.watch(['*.html', '_includes/*.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
 });
@@ -97,4 +110,4 @@ gulp.task('watch', function () {
  * Default task, running just `gulp` will compile the stylus,
  * compile the jekyll site, launch BrowserSync & watch files.
  */
-gulp.task('default', ['js', 'stylus', 'browser-sync', 'watch']);
+gulp.task('default', ['js', 'js-fast', 'stylus', 'browser-sync', 'watch']);

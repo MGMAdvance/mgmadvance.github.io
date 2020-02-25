@@ -2,7 +2,7 @@
 title: MGMAdvance
 description: "Olá! como vai?"
 baseurl: "" # for test: remove string '/space-jekyll-template' to ''
-url: "http://mgmadvance.github.io/" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.github.io'
+url: "" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.github.io'
 
 # User settings
 username: mgmadvance
@@ -10,9 +10,8 @@ user_title: MGMAdvance
 email: matheusgt4@hotmail.com
 twitter_username: matheusgt4
 github_username:  mgmadvance
-gplus_username:  loremipsum
-linkedin_public_url: mgmro # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
-disqus_username: loremipsum
+linkedin_public_url: mgmro
+disqus_username: mgmadvance
 profile_picture: https://avatars3.githubusercontent.com/u/20846871?v=4
 
 # Build settings
@@ -67,6 +66,9 @@ projects:
     url: https://github.com/MGMAdvance/Rockeira-AI
   - name: ShiftNews
     url: https://github.com/MGMAdvance/ShiftNews
+    
+# Search all repos in about me [Github API]
+all_repos: false
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']

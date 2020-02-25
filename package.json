@@ -1,7 +1,7 @@
 {
-  "name": "victorigortemplate",
+  "name": "mgmadvanceTemplate",
   "version": "1.0.0",
-  "description": "My jekyll blog template.",
+  "description": "Template for github pages.",
   "main": "gulpfile.js",
   "scripts": {
     "test": "test"
