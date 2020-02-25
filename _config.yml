@@ -2,7 +2,7 @@
 title: MGMAdvance
 description: "Olá! como vai?"
 baseurl: "" # for test: remove string '/space-jekyll-template' to ''
-url: "" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.github.io'
+url: "https://mgmadvance.github.io" # for test: remove string 'https://mgmadvance.github.io' to '' but in production: 'https://yourusername.github.io'
 
 # User settings
 username: mgmadvance
