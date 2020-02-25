@@ -1,19 +1,19 @@
 # Site settings
-title: Lorem Ipsum - Web Developer
-description: "A blog about lorem ipsum ..."
-baseurl: "/space-jekyll-template" # for test: remove string '/space-jekyll-template' to ''
-url: "http://victorvoid.github.io/space-jekyll-template/" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.github.io'
+title: MGMAdvance
+description: "Olá! como vai?"
+baseurl: "" # for test: remove string '/space-jekyll-template' to ''
+url: "http://mgmadvance.github.io/" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.github.io'
 
 # User settings
-username: lorem ipsum
-user_title: Lorem Ipsum - FrontEnd
-email: lorem.lorem@ipsum.com
-twitter_username: loremipsum
-github_username:  loremipsum
+username: mgmadvance
+user_title: MGMAdvance
+email: matheusgt4@hotmail.com
+twitter_username: matheusgt4
+github_username:  mgmadvance
 gplus_username:  loremipsum
-linkedin_public_url: loremipsum # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
+linkedin_public_url: mgmro # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
 disqus_username: loremipsum
-profile_picture: https://68.media.tumblr.com/93f384858e9273d5b980b418e2f2f4d5/tumblr_o5i2aybLJG1uapsfmo2_250.png
+profile_picture: https://avatars3.githubusercontent.com/u/20846871?v=4
 
 # Build settings
 markdown: kramdown
@@ -30,10 +30,10 @@ compress_html:
 # Links to include in menu navigation
 links:
   section_1:
-    - title: home
+    - title: Início
       url: /
       key_trigger: 1
-    - title: my posts
+    - title: Posts
       url: /posts
       key_trigger: 2
     - title: series
@@ -47,11 +47,11 @@ links:
       key_trigger: 5
   section_2:
     - title: github
-      url: http://www.github.com/victorvoid
+      url: http://www.github.com/mgmadvance
       new_tab: true
       key_trigger: g
     - title: twitter
-      url: http://www.twitter.com/victorvoid
+      url: http://www.twitter.com/matheusgt4
       key_trigger: t
     - title: search
       url: ""
@@ -59,12 +59,14 @@ links:
 
 # projects in header index
 projects:
-  - name: fluany
-    url: https://github.com/fluany/fluany
-  - name: vim-frontend
-    url: https://github.com/victorvoid/vim-frontend
-  - name: generator-capybara
-    url: https://github.com/victorvoid/generator-capybara 
+  - name: auto-tinyjpg
+    url: https://github.com/MGMAdvance/auto-tinyjpg
+  - name: eslint-editor
+    url: https://github.com/MGMAdvance/eslint-editor
+  - name: Rockeira-AI
+    url: https://github.com/MGMAdvance/Rockeira-AI
+  - name: ShiftNews
+    url: https://github.com/MGMAdvance/ShiftNews
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
