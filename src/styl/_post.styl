@@ -100,6 +100,17 @@
     	margin 50px auto
     .about_perfil
         width 200px
+    p:nth-child(1)
+        padding 0px
+        background: blackBase
+        max-width: 100%
+        overflow hidden
+        width 100% /* width of container */
+        height 100% /* height of container */
+        +desktop()
+            height 400px /* crop for desktop screen */
+        img
+            margin 0px 0px 0px 0px /* remove borders of img banner */
 .share
     center(800px)
     text-align center
@@ -150,3 +161,5 @@ table
         float right
         +below(cut)
             display none
+.embed-center
+    text-align center
