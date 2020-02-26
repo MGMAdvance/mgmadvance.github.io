@@ -7,7 +7,7 @@ tags:
 - Shell Script
 - C++
 - Automatização
-description: 'Desenvolvendo uma automatização '
+description: 'Experimentando Shell Script para automatizar a compilação de múltiplos arquivos C++'
 categories:
 - Shell Script
 ---
