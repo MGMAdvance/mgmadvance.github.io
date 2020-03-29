@@ -6,8 +6,8 @@ date:   2020-03-29 09:00:46
 tags:
 - Cloud
 - Shell Script
-- Automatização
-description: 'Experimentando Shell Script para automatizar a compilação de múltiplos arquivos C++'
+- Servidor
+description: 'Criando uma instância no Google Cloud para utilizar como servidor de Minecraft'
 categories:
 - Cloud
 ---
