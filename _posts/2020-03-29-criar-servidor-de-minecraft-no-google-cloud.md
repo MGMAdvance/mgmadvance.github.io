@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Como criar um servidor de Minecraft no Google Cloud"
-image: 'https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=720'
+image: 'https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&dpr=3'
 date:   2020-03-29 09:00:46
 tags:
 - Cloud
