@@ -105,7 +105,7 @@ Libere o acesso **HTTP** e **HTTPS** para adiantar nosso processo.
 
 Clique em **Gerenciamento, segurança, discos, rede, locatário único**.
 
-Irá aparecer um menu enorme, bom, clique em **Redes**, em **Tags de Rede** adicione alguma coisa por exemplo eu coloquei **meu-server*, mas coloque o que quiser.
+Irá aparecer um menu enorme, bom, clique em **Redes**, em **Tags de Rede** adicione alguma coisa por exemplo eu coloquei **meu-server**, mas coloque o que quiser.
 
 ![Tags de Rede](https://i.imgur.com/cA3IAod.png)
 
